@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Dev.Tools.Lib.TestApp", "..\..\Tests\Project\VC10\Dev.Tools.Lib.TestApp\Dev.Tools.Lib.TestApp.vcxproj", "{76037C28-4EB2-4269-A4A6-C27B8CA96790}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F832824F-41AB-485E-9886-F31C02278642} = {F832824F-41AB-485E-9886-F31C02278642}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Dev.Tools.Lib", "..\..\Projects\VC10\Dev.Tools.Lib\Dev.Tools.Lib.vcxproj", "{F832824F-41AB-485E-9886-F31C02278642}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{76037C28-4EB2-4269-A4A6-C27B8CA96790}.Debug|Win32.ActiveCfg = Debug|Win32
+		{76037C28-4EB2-4269-A4A6-C27B8CA96790}.Debug|Win32.Build.0 = Debug|Win32
+		{76037C28-4EB2-4269-A4A6-C27B8CA96790}.Release|Win32.ActiveCfg = Release|Win32
+		{76037C28-4EB2-4269-A4A6-C27B8CA96790}.Release|Win32.Build.0 = Release|Win32
+		{F832824F-41AB-485E-9886-F31C02278642}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F832824F-41AB-485E-9886-F31C02278642}.Debug|Win32.Build.0 = Debug|Win32
+		{F832824F-41AB-485E-9886-F31C02278642}.Release|Win32.ActiveCfg = Release|Win32
+		{F832824F-41AB-485E-9886-F31C02278642}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

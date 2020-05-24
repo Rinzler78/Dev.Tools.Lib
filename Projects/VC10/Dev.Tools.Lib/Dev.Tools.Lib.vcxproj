@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\Sources\BaseClientCommunication\BaseClientCommunication.cpp" />
+    <ClCompile Include="..\..\..\Sources\BaseClient\BaseClient.cpp" />
+    <ClCompile Include="..\..\..\Sources\BaseCommunication\BaseCommunication.cpp" />
+    <ClCompile Include="..\..\..\Sources\BaseConnectedClient\BaseConnectedClient.cpp" />
+    <ClCompile Include="..\..\..\Sources\BaseIPServer\BaseIPServer.cpp" />
+    <ClCompile Include="..\..\..\Sources\BaseIP\BaseIP.cpp" />
+    <ClCompile Include="..\..\..\Sources\BaseTCPClient\BaseTCPClient.cpp" />
+    <ClCompile Include="..\..\..\Sources\BaseUDPClient\BaseUDPClient.cpp" />
+    <ClCompile Include="..\..\..\Sources\BTDevice\BTDevice.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Sources\BthInquiryResult\btdrt.cxx">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Sources\BthInquiryResult\BthInquiryResult.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Sources\BtManager\BTManager.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Sources\BTPrinter\BTPrinter.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Sources\CabFile\CabFile.cpp" />
+    <ClCompile Include="..\..\..\Sources\Clock\Clock.cpp" />
+    <ClCompile Include="..\..\..\Sources\CommonTools\CommonTools.cpp" />
+    <ClCompile Include="..\..\..\Sources\ConfigFile\ConfigFile.cpp" />
+    <ClCompile Include="..\..\..\Sources\CrcTool\CrcTool.cpp" />
+    <ClCompile Include="..\..\..\Sources\DirectoryInfo\DirectoryInfo.cpp" />
+    <ClCompile Include="..\..\..\Sources\FileInfo\FileInfo.cpp" />
+    <ClCompile Include="..\..\..\Sources\FileSysteminfo\FileSysteminfo.cpp" />
+    <ClCompile Include="..\..\..\Sources\GPS\GPS.cpp" />
+    <ClCompile Include="..\..\..\Sources\GPS\GPS_Common.cpp" />
+    <ClCompile Include="..\..\..\Sources\GPS\NMEA_Frame.cpp" />
+    <ClCompile Include="..\..\..\Sources\GPS\NMEA_GGA.cpp" />
+    <ClCompile Include="..\..\..\Sources\GPS\NMEA_GLL.cpp" />
+    <ClCompile Include="..\..\..\Sources\GPS\NMEA_GSA.cpp" />
+    <ClCompile Include="..\..\..\Sources\GPS\NMEA_GSV.cpp" />
+    <ClCompile Include="..\..\..\Sources\GPS\NMEA_RM.cpp" />
+    <ClCompile Include="..\..\..\Sources\GPS\NMEA_VTG.cpp" />
+    <ClCompile Include="..\..\..\Sources\IniFile\IniFile.cpp" />
+    <ClCompile Include="..\..\..\Sources\IniFile\IniSection.cpp" />
+    <ClCompile Include="..\..\..\Sources\IniFile\IniSectionValue.cpp" />
+    <ClCompile Include="..\..\..\Sources\LinkedList\LinkedList.cpp" />
+    <ClCompile Include="..\..\..\Sources\LinkedList\Node.cpp" />
+    <ClCompile Include="..\..\..\Sources\Log\Log.cpp" />
+    <ClCompile Include="..\..\..\Sources\Mutex\Mutex.cpp" />
+    <ClCompile Include="..\..\..\Sources\Printer\Printer.cpp" />
+    <ClCompile Include="..\..\..\Sources\Registry\RegKey.cpp" />
+    <ClCompile Include="..\..\..\Sources\Registry\RegValue.cpp" />
+    <ClCompile Include="..\..\..\Sources\SerialPort\SerialPort.cpp" />
+    <ClCompile Include="..\..\..\Sources\SerialPort\SerialPort_BaseConfig.cpp" />
+    <ClCompile Include="..\..\..\Sources\SerialPort\SerialPort_Config_FlowControl.cpp" />
+    <ClCompile Include="..\..\..\Sources\SerialPort\SerialPort_Config_FlowControl_DTR_DSR.cpp" />
+    <ClCompile Include="..\..\..\Sources\SerialPort\SerialPort_Config_FlowControl_RTS_CTS.cpp" />
+    <ClCompile Include="..\..\..\Sources\SerialPort\SerialPort_Config_FlowControl_XOnXOff.cpp" />
+    <ClCompile Include="..\..\..\Sources\ThreadManager\ThreadManager.cpp" />
+    <ClCompile Include="..\..\..\Sources\Thread\Thread.cpp" />
+    <ClCompile Include="..\..\..\Sources\TimeForCE\TimeForCE.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Sources\Timer\Timer.cpp" />
+    <ClCompile Include="..\..\..\Sources\Tools\CRCReportFile\CRCReportFile.cpp" />
+    <ClCompile Include="..\..\..\Sources\Tools\TodoFile\TodoFile.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\Sources\BaseClientCommunication\BaseClientCommunication.h" />
+    <ClInclude Include="..\..\..\Sources\BaseClientCommunication\BaseClientCommunication_Defs.h" />
+    <ClInclude Include="..\..\..\Sources\BaseClientCommunication\BaseClientCommunication_Delegate.h" />
+    <ClInclude Include="..\..\..\Sources\BaseClient\BaseClient.h" />
+    <ClInclude Include="..\..\..\Sources\BaseClient\BaseClientDelegate.h" />
+    <ClInclude Include="..\..\..\Sources\BaseClient\BaseClient_Defs.h" />
+    <ClInclude Include="..\..\..\Sources\BaseCommunication\BaseCommunication.h" />
+    <ClInclude Include="..\..\..\Sources\BaseCommunication\BaseCommunication_Defs.h" />
+    <ClInclude Include="..\..\..\Sources\BaseCommunication\BaseCommunication_Delegate.h" />
+    <ClInclude Include="..\..\..\Sources\BaseConnectedClient\BaseConnectedClient.h" />
+    <ClInclude Include="..\..\..\Sources\BaseConnectedClient\BaseConnectedClient_Defs.h" />
+    <ClInclude Include="..\..\..\Sources\BaseConnectedClient\BaseConnectedClient_Delegate.h" />
+    <ClInclude Include="..\..\..\Sources\BaseIPServer\BaseIPServer.h" />
+    <ClInclude Include="..\..\..\Sources\BaseIPServer\BaseIPServer_Defs.h" />
+    <ClInclude Include="..\..\..\Sources\BaseIPServer\BaseIPServer_Delegate.h" />
+    <ClInclude Include="..\..\..\Sources\BaseIP\BaseIP.h" />
+    <ClInclude Include="..\..\..\Sources\BaseIP\BaseIP_Defs.h" />
+    <ClInclude Include="..\..\..\Sources\BaseTCPClient\BaseTCPClient.h" />
+    <ClInclude Include="..\..\..\Sources\BaseUDPClient\BaseUDPClient.h" />
+    <ClInclude Include="..\..\..\Sources\BTDevice\BTDevice.h" />
+    <ClInclude Include="..\..\..\Sources\BthInquiryResult\BthInquiryResult.h" />
+    <ClInclude Include="..\..\..\Sources\BtManager\BTManager.h" />
+    <ClInclude Include="..\..\..\Sources\BTPrinter\BTPrinter.h" />
+    <ClInclude Include="..\..\..\Sources\CabFile\CabFile.h" />
+    <ClInclude Include="..\..\..\Sources\Clock\Clock.h" />
+    <ClInclude Include="..\..\..\Sources\Clock\Clock_Defs.h" />
+    <ClInclude Include="..\..\..\Sources\CommonBlueTooth\CommonBlueTooth.h" />
+    <ClInclude Include="..\..\..\Sources\CommonTools\CommonTools.h" />
+    <ClInclude Include="..\..\..\Sources\Common\Common.h" />
+    <ClInclude Include="..\..\..\Sources\ConfigFile\ConfigFile.h" />
+    <ClInclude Include="..\..\..\Sources\CrcTool\CrcTool.h" />
+    <ClInclude Include="..\..\..\Sources\DirectoryInfo\DirectoryInfo.h" />
+    <ClInclude Include="..\..\..\Sources\FileInfo\FileInfo.h" />
+    <ClInclude Include="..\..\..\Sources\FileSysteminfo\FileSysteminfo.h" />
+    <ClInclude Include="..\..\..\Sources\GPS\GPS.h" />
+    <ClInclude Include="..\..\..\Sources\GPS\GPS_Common.h" />
+    <ClInclude Include="..\..\..\Sources\GPS\GPS_Info.h" />
+    <ClInclude Include="..\..\..\Sources\GPS\GPS_Position.h" />
+    <ClInclude Include="..\..\..\Sources\GPS\NMEA_Frame.h" />
+    <ClInclude Include="..\..\..\Sources\GPS\NMEA_GGA.h" />
+    <ClInclude Include="..\..\..\Sources\GPS\NMEA_GLL.h" />
+    <ClInclude Include="..\..\..\Sources\GPS\NMEA_GSA.h" />
+    <ClInclude Include="..\..\..\Sources\GPS\NMEA_GSV.h" />
+    <ClInclude Include="..\..\..\Sources\GPS\NMEA_RM.h" />
+    <ClInclude Include="..\..\..\Sources\GPS\NMEA_VTG.h" />
+    <ClInclude Include="..\..\..\Sources\GPS\SexadecimalValue.h" />
+    <ClInclude Include="..\..\..\Sources\IniFile\IniFile.h" />
+    <ClInclude Include="..\..\..\Sources\IniFile\IniSection.h" />
+    <ClInclude Include="..\..\..\Sources\IniFile\IniSectionValue.h" />
+    <ClInclude Include="..\..\..\Sources\LinkedList\LinkedList.h" />
+    <ClInclude Include="..\..\..\Sources\LinkedList\Node.h" />
+    <ClInclude Include="..\..\..\Sources\Log\Log.h" />
+    <ClInclude Include="..\..\..\Sources\Mutex\Mutex.h" />
+    <ClInclude Include="..\..\..\Sources\MyString\MyString.h" />
+    <ClInclude Include="..\..\..\Sources\MyString\MyString.hpp" />
+    <ClInclude Include="..\..\..\Sources\MyString\MyString_Defs.h" />
+    <ClInclude Include="..\..\..\Sources\MyString\MyTypes.h" />
+    <ClInclude Include="..\..\..\Sources\Printer\Printer.h" />
+    <ClInclude Include="..\..\..\Sources\Registry\RegKey.h" />
+    <ClInclude Include="..\..\..\Sources\Registry\RegValue.h" />
+    <ClInclude Include="..\..\..\Sources\SerialPort\SerialPort.h" />
+    <ClInclude Include="..\..\..\Sources\SerialPort\SerialPort_BaseConfig.h" />
+    <ClInclude Include="..\..\..\Sources\SerialPort\SerialPort_Config.h" />
+    <ClInclude Include="..\..\..\Sources\SerialPort\SerialPort_Config_FlowControl.h" />
+    <ClInclude Include="..\..\..\Sources\SerialPort\SerialPort_Config_FlowControl_DTR_DSR.h" />
+    <ClInclude Include="..\..\..\Sources\SerialPort\SerialPort_Config_FlowControl_RTS_CTS.h" />
+    <ClInclude Include="..\..\..\Sources\SerialPort\SerialPort_Config_FlowControl_XOnXOff.h" />
+    <ClInclude Include="..\..\..\Sources\SerialPort\SerialPort_Config_Private.h" />
+    <ClInclude Include="..\..\..\Sources\ThreadManager\ThreadManager.h" />
+    <ClInclude Include="..\..\..\Sources\Thread\Thread.h" />
+    <ClInclude Include="..\..\..\Sources\TimeForCE\TimeForCE.h" />
+    <ClInclude Include="..\..\..\Sources\Timer\Timer.h" />
+    <ClInclude Include="..\..\..\Sources\Timer\Timer_Delegate.h" />
+    <ClInclude Include="..\..\..\Sources\Tools\CRCReportFile\CRCReportFile.h" />
+    <ClInclude Include="..\..\..\Sources\Tools\TodoFile\TodoFile.h" />
+    <ClInclude Include="..\..\..\Sources\Tools\TodoFile\TodoFile_DefaultContent.h" />
+    <ClInclude Include="..\..\..\Sources\MyString\MyString_AddString.hpp" />
+    <ClInclude Include="..\..\..\Sources\MyString\MyString_SetString.hpp" />
+    <ClInclude Include="..\..\..\Sources\MyString\MyString_StringLength.hpp" />
+    <ClInclude Include="..\..\..\Sources\MyString\MyString_StringTests.hpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F832824F-41AB-485E-9886-F31C02278642}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>DevToolsLib</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>../../../Libs/$(Platform)/$(Configuration)/</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>../../../Libs/$(Platform)/$(Configuration)/</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../../../Sources</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <PreBuildEvent>
+      <Command>..\..\..\Scripts\Pre_Build.bat</Command>
+    </PreBuildEvent>
+    <PreBuildEvent>
+      <Message>Script de Pre Compilation</Message>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Command>..\..\..\Scripts\Post_Build.bat</Command>
+    </PostBuildEvent>
+    <PostBuildEvent>
+      <Message>Script de Post Compilation</Message>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../../../Sources</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <PreBuildEvent>
+      <Command>..\..\..\Scripts\Pre_Build.bat</Command>
+    </PreBuildEvent>
+    <PreBuildEvent>
+      <Message>Script de Pre Compilation</Message>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Command>..\..\..\Scripts\Post_Build.bat</Command>
+    </PostBuildEvent>
+    <PostBuildEvent>
+      <Message>Script de Post Compilation</Message>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
